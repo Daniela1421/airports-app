@@ -1,6 +1,6 @@
 # Aplicación de aeropuertos
 
-Aplicación desarrollada con Next.js + React + TypeScript para visualizar y gestionar información de aeropuertos.
+Aplicación desarrollada con Next.js + React + TypeScript que permite visualizar información de aeropuertos, consultar detalles y ubicaciones en el mapa, gestionar el estado global.
 
 
 ## 🛠️ Tecnologías utilizadas
@@ -18,7 +18,8 @@ Aplicación desarrollada con Next.js + React + TypeScript para visualizar y gest
 
 ### 1. Clonar el repositorio
 ```
-git clone https://github.com/tu-usuario/template-orders-vtex.git
+git clone https://github.com/Daniela1421/airports-app.git
+cd airports-app
 ```
 
 ### 2. Instalar dependencias
