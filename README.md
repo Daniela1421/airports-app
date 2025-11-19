@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Aplicación de aeropuertos
 
-## Getting Started
+Aplicación desarrollada con Next.js + React + TypeScript para visualizar y gestionar información de aeropuertos.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🛠️ Tecnologías utilizadas
+
+- Next.js (Framework React)  
+- TypeScript  
+- Testing con Jest + Testing Library  
+- Tailwind
+- Leaflet + react-leaflet
+- Zustand
+- API aviationstack
+
+
+## 📥  Instalación y ejecuciónnstalación y puesta en marcha local
+
+### 1. Clonar el repositorio
+```
+git clone https://github.com/tu-usuario/template-orders-vtex.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Instalar dependencias
+```
+npm install 
+```
+### 3. Crea variables de entorno
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Crea un archivo .env.local con las variables de entorno: 
+- AVIATIONSTACK_KEY=tu_api_key_aqui
+- NEXT_PUBLIC_AVIATION_KEY=tu_api_key_aqui
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Para obtener la clave, regístrate gratuitamente en [Aviationstack](https://aviationstack.com/) y copia tu API Key.
 
-## Learn More
+### 3. Ejecutar el proyecto 
+```
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🧰 Scripts disponibles
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+En el archivo `package.json` encontrarás los siguientes scripts:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+npm run dev        # Inicia el entorno de desarrollo
+npm run build      # Compila la app para producción
+npm run start      # Ejecuta la app compilada
+npm run lint       # Ejecuta el linter para revisar el código
+npm run test       # Corre los tests con Jest
+```
 
-## Deploy on Vercel
+## ✨ Autor
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[Daniela Ducuara Cañas](https://github.com/Daniela1421)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
